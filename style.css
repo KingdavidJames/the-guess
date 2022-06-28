@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+body{
+    background-color: #222;
+    color: #eee;
+    font-family: 'Press Start 2P', sans-serif;
+}
+.header{
+    padding-bottom: 30px;
+    border-bottom: 7px solid #eee;
+}
+.number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+  margin-top: 1rem;
+}
+.number > .question{
+  background: #eee;
+  color: #333;
+  font-size: 3.5rem;
+  width: 12rem;
+}
+.guess {
+  background: none;
+  border: 4px solid #eee;
+  color: #eee;
+  font-size: 3rem;
+  width: 17rem;
+  text-align: center;
+  display: block;
+  outline: none;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.check{
+    font-size: 1.5rem;
+}
+.btn{
+    border: none;
+    border-radius: 0px;
+}
+.btn:hover {
+  background-color: #ccc;
+}
+.info{
+    margin-top: 83px;
+}
