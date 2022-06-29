@@ -29,7 +29,7 @@ document.querySelector('.check').addEventListener('click', function () {
         }
     // When a player's guess is too high
     } else if (guess > secretNumber) {
-        if (score > 15) {
+        if (score > 16) {
           document.querySelector('.message').textContent = '📈 Too high';
           score--;
           document.querySelector('.score').textContent = score;
@@ -42,7 +42,7 @@ document.querySelector('.check').addEventListener('click', function () {
         }
     // When a player's guess is too low
     } else if (guess < secretNumber) {
-        if (score > 15) {
+        if (score > 16) {
           document.querySelector('.message').textContent = '📉 Too low';
           score--;
           document.querySelector('.score').textContent = score;
